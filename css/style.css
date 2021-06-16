@@ -1,0 +1,43 @@
+.wraper-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 500px;
+	background-color: blue;
+}
+.left-block {
+	width: 300px;
+	height: 200px;
+	background-color: red;
+}
+.right-block {
+	width: 300px;
+	height: 200px;
+	background-color: lightblue;
+}
+.center-block {
+	width: 300px;
+	height: 200px;
+	background-color: yellow;
+}
+
+
+/*images example*/
+.container {
+	max-width: 1170px;
+	width: 100%;
+	background-color: grey;
+	margin:0 auto;
+}
+.images-wraper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.block1 {
+	width: 250px;
+}
+
+.image-block {
+	width: 100%;
+}
